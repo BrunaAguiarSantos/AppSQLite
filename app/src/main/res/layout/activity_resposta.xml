@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#FDCECE"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Confirmando"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:text="@string/txtNome"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txtTel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txtTel"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtTel"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txtObs"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txtObs"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtObs"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btnConfirmar" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App_SQLite</string>
+    <string name="txtNome">Nome:</string>
+    <string name="txtObs">Observação:</string>
+    <string name="txtTel">Telefone:</string>
+    <string name="btnCadastrar">Cadastrar:</string>
+    <string name="title">CADASTRO</string>
+    <string name="title2">Confirmação de resposta</string>
+    <string name="btnConfirmar">Confirmar:</string>
+</resources>
